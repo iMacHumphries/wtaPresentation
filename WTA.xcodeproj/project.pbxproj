@@ -19,6 +19,9 @@
 		B56D678E1D485DB3004D8B6C /* SharedAnimations.sks in Resources */ = {isa = PBXBuildFile; fileRef = B56D678D1D485DB3004D8B6C /* SharedAnimations.sks */; };
 		B56D67911D486136004D8B6C /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = B56D678F1D486136004D8B6C /* fire.sks */; };
 		B56D67921D486136004D8B6C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B56D67901D486136004D8B6C /* spark.png */; };
+		B5ACCEBE1D4876390007D673 /* Scene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ACCEBD1D4876390007D673 /* Scene2.swift */; };
+		B5ACCECC1D48808A0007D673 /* boom.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5ACCECB1D48808A0007D673 /* boom.sks */; };
+		B5ACCECE1D4884230007D673 /* bug.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5ACCECD1D4884230007D673 /* bug.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		B56D678D1D485DB3004D8B6C /* SharedAnimations.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SharedAnimations.sks; sourceTree = "<group>"; };
 		B56D678F1D486136004D8B6C /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
 		B56D67901D486136004D8B6C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B5ACCEBD1D4876390007D673 /* Scene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene2.swift; sourceTree = "<group>"; };
+		B5ACCECB1D48808A0007D673 /* boom.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = boom.sks; sourceTree = "<group>"; };
+		B5ACCECD1D4884230007D673 /* bug.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = bug.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 				B56D676F1D48500B004D8B6C /* AppDelegate.swift */,
 				B56D67751D48500B004D8B6C /* GameViewController.swift */,
 				B56D67861D485AD7004D8B6C /* Scene1.swift */,
+				B5ACCEBD1D4876390007D673 /* Scene2.swift */,
 				B56D67881D485B27004D8B6C /* sks */,
 				B56D67791D48500B004D8B6C /* Main.storyboard */,
 				B56D677C1D48500C004D8B6C /* Assets.xcassets */,
@@ -89,6 +96,8 @@
 				B56D678B1D485D0B004D8B6C /* Scene2.sks */,
 				B56D678F1D486136004D8B6C /* fire.sks */,
 				B56D67901D486136004D8B6C /* spark.png */,
+				B5ACCECB1D48808A0007D673 /* boom.sks */,
+				B5ACCECD1D4884230007D673 /* bug.sks */,
 			);
 			name = sks;
 			sourceTree = "<group>";
@@ -153,7 +162,9 @@
 			files = (
 				B56D67851D4853A8004D8B6C /* Scene1.sks in Resources */,
 				B56D678C1D485D0B004D8B6C /* Scene2.sks in Resources */,
+				B5ACCECC1D48808A0007D673 /* boom.sks in Resources */,
 				B56D677B1D48500B004D8B6C /* Main.storyboard in Resources */,
+				B5ACCECE1D4884230007D673 /* bug.sks in Resources */,
 				B56D67911D486136004D8B6C /* fire.sks in Resources */,
 				B56D678E1D485DB3004D8B6C /* SharedAnimations.sks in Resources */,
 				B56D67921D486136004D8B6C /* spark.png in Resources */,
@@ -171,6 +182,7 @@
 			files = (
 				B56D67761D48500B004D8B6C /* GameViewController.swift in Sources */,
 				B56D67871D485AD7004D8B6C /* Scene1.swift in Sources */,
+				B5ACCEBE1D4876390007D673 /* Scene2.swift in Sources */,
 				B56D678A1D485BC4004D8B6C /* Int+random.swift in Sources */,
 				B56D67701D48500B004D8B6C /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +328,7 @@
 				B56D67831D48500C004D8B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

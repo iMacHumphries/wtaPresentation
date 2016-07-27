@@ -110,7 +110,7 @@ class Scene1: SKScene {
         blobber.runAction(.sequence([.scaleBy(11, duration: 1.5), .waitForDuration(0.2), SKAction(named: "pop_blue")!])) {
             for child in self.children {
                 if child.name != "demo" {
-                    child.removeFromParent()
+                    child.hidden = true
                 }
             }
         }

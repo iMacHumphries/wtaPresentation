@@ -14,7 +14,8 @@ class GameViewController: UIViewController {
     var myView: SKView!
 
     var index = 0
-    let scenes = [Scene1(fileNamed: "Scene1")]
+    let scenes: [SKScene] = [Scene1(fileNamed: "Scene1")!,
+                             Scene2(fileNamed: "Scene2")!]
 
     override func viewDidLoad() {
         super.viewDidLoad()
